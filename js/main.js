@@ -6,13 +6,14 @@ console.log(`The solution is ${soluce}`);
 
 // Add code 
 
-function getNumber() 
+/*function getNumber() 
 { 
   let number = document.getElementById("number").value; 
-  alert(number); 
-} 
+  console.log(number);
+  return number; 
+}*/
 
-/*let number = Number(prompt(`Entrez un nombre :`));
+let number = Number(prompt(`Entrez un nombre :`));
 let attempt = 0;
  
 while((number !== soluce) && (attempt < 6)){
@@ -22,6 +23,7 @@ while((number !== soluce) && (attempt < 6)){
     console.log(`${number} est trop petit`);
   }
   attempt++;
+  //number = document.getElementById("number").value;
   number = Number(prompt(`Entrez un nombre:`));
 }
  
@@ -29,7 +31,7 @@ if(number == soluce) {
     console.log(`Bravo ! La solution est ${soluce}`);
 } else {
     console.log(`Vous avez perdu!`);
-}*/
+}
 
 // DOM interaction
 window.addEventListener('DOMContentLoaded', function() {
