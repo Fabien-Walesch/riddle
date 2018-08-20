@@ -6,14 +6,13 @@ console.log(`The solution is ${soluce}`);
 
 // Add code 
 
-/*function getNumber() 
+function getNumber() 
 { 
   let number = document.getElementById("number").value; 
   console.log(number);
-  return number; 
-}*/
+}
 
-let number = Number(prompt(`Entrez un nombre :`));
+/*let number = Number(prompt(`Entrez un nombre :`));
 let attempt = 0;
  
 while((number !== soluce) && (attempt < 6)){
@@ -31,7 +30,7 @@ if(number == soluce) {
     console.log(`Bravo ! La solution est ${soluce}`);
 } else {
     console.log(`Vous avez perdu!`);
-}
+}*/
 
 // DOM interaction
 window.addEventListener('DOMContentLoaded', function() {
