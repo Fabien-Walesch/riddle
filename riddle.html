@@ -10,6 +10,16 @@
     <h1>Riddle, guess the number</h1>
     <div id="intro"></div>
     <div id="soluce"></div>
+    <form>
+        <div>
+            <input type="number" name="setNumber" id="number" placeholder="Tape your number here" min="0" max="100" required>
+            <span class="validity"></span>
+        </div>
+        <div>
+            <input type="submit" value="send" onclick="getNumber();">
+        </div>
+        
+    </form>
     <script src="js/main.js"></script>
 </body>
 
