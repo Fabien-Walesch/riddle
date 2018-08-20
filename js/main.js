@@ -6,5 +6,12 @@ console.log(`The solution is ${result}`);
 
 // Add code 
 
+window.addEventListener('DOMContentLoaded', function() {
+    // The DOM is ready, we can handle it
+    let intro = window.document.querySelector('#intro');
+    intro.innerHTML = `Welcome to this guessing game!`;
+    let showResult = window.document.querySelector('#result');
+    showResult.innerHTML = `The solution is ${result}`;
+});
 
 
