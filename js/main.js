@@ -5,7 +5,7 @@ const soluce = Math.floor(Math.random() * 100) + 1;
 console.log(`The solution is ${soluce}`);
 
 // Add code 
-var number = Number(prompt(`Entrez un nombre :`));
+let number = Number(prompt(`Entrez un nombre :`));
 let attempt = 0;
  
 while((number !== soluce) && (attempt < 6)){
@@ -15,7 +15,7 @@ while((number !== soluce) && (attempt < 6)){
     console.log(`${number} est trop petit`);
   }
   attempt++;
-  var number = Number(prompt(`Entrez un nombre:`));
+  number = Number(prompt(`Entrez un nombre:`));
 }
  
 if(number == soluce)
