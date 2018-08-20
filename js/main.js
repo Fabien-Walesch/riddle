@@ -5,7 +5,23 @@ const soluce = Math.floor(Math.random() * 100) + 1;
 console.log(`The solution is ${soluce}`);
 
 // Add code 
-
+var number = Number(prompt(`Entrez un nombre :`));
+let attempt = 0;
+ 
+while((number !== soluce) && (attempt < 6)){
+  if (number > soluce) {
+    console.log(`${number} est trop grand`);
+  } else if (number < soluce) {
+    console.log(`${number} est trop petit`);
+  }
+  attempt++;
+  var number = Number(prompt(`Entrez un nombre:`));
+}
+ 
+if(number == soluce)
+  console.log(`Bravo ! La solution est ${soluce}`);
+else
+  console.log(`Vous avez perdu!`);
 
 // DOM interaction
 window.addEventListener('DOMContentLoaded', function() {
