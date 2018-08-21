@@ -5,7 +5,7 @@
   "main": "./js/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./js/main.js"
+    "start": "node ./dist/main.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/FabienWaleschDesign/riddle/issues"
   },
-  "homepage": "https://github.com/FabienWaleschDesign/riddle#readme"
+  "homepage": "https://github.com/FabienWaleschDesign/riddle#readme",
+  "dependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp": "^3.9.1",
+    "gulp-es6-transpiler": "^1.0.1",
+    "gulp-run": "^1.7.1",
+    "gulp-sass": "^4.0.1"
+  }
 }
